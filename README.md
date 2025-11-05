@@ -9,7 +9,7 @@ It helps users **track their expenses, income, and transfers**, analyze spending
 
 | Home Screen | Add Transaction | Analysis Screen |
 |--------------|----------------|-----------------|
-| ![Home](screenshots/home.png) | ![Add](screenshots/add_transaction.png) | ![Analysis](screenshots/analysis.png) |
+| ![Home]([screenshots/home.png](https://github.com/devsoumikpal/ExpenseTracker/blob/master/home_screen_ui.png)) | ![Add](screenshots/add_transaction.png) | ![Analysis](screenshots/analysis.png) |
 
 
 ---
