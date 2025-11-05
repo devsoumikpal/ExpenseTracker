@@ -39,4 +39,36 @@ It helps users **track their expenses, income, and transfers**, analyze spending
 
 ## 🧠 Architecture Overview
 
-The app follows **MVVM (Model–View–ViewModel)** architecture:
+The app follows the **MVVM (Model–View–ViewModel)** architecture pattern, ensuring a clean separation of concerns and improved testability.
+
+### 🏗️ Layers Breakdown
+
+#### **1️⃣ Model Layer**
+- Contains data classes such as `Transaction`.
+- Uses **Room Database** (`AppDatabase`, `TransactionDao`) for local persistence.
+- The **Repository** (`TransactionRepository`) handles data access logic and provides a single source of truth for ViewModels.
+
+#### **2️⃣ ViewModel Layer**
+- `TransactionViewModel` acts as a bridge between UI and data layers.
+- Uses **Kotlin Coroutines** and **StateFlow** for real-time data updates.
+- Handles business logic like calculating balance, filtering transactions, and triggering notifications.
+
+#### **3️⃣ View (UI) Layer**
+- Built with **Jetpack Compose** for a modern declarative UI.
+- Screens:  
+  - 🏠 `HomeScreen` — Displays current balance, income, and recent transactions.  
+  - ➕ `AddTransactionScreen` — Allows users to add or edit transactions with category and payment mode selection.  
+  - 📊 `AnalysisScreen` — Shows monthly spending insights with pie charts and category-wise analysis.
+
+### ⚙️ Supporting Components
+- **WorkManager**: Schedules daily background tasks for notification alerts.
+- **NotificationHelper**: Manages Android notification channels and triggers budget alerts.
+- **Material3 Components**: Provides a consistent, modern design system.
+
+---
+
+🧩 This architecture ensures:
+- Clean and scalable codebase.  
+- Reactive and real-time UI updates.  
+- Easy maintainability and testing.
+
