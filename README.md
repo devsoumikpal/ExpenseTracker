@@ -7,9 +7,16 @@ It helps users **track their expenses, income, and transfers**, analyze spending
 
 ## 🖼️ Screenshots
 
-| Home Screen | Add Transaction | Analysis Screen |
-|--------------|----------------|-----------------|
-| ![Home]([screenshots/home.png](https://github.com/devsoumikpal/ExpenseTracker/blob/master/home_screen_ui.png)) | ![Add](screenshots/add_transaction.png) | ![Analysis](screenshots/analysis.png) |
+## 📱 App Screenshots
+
+| 🏠 Home Screen | ➕ Add Transaction | 📊 Analysis Screen |
+|----------------|-------------------|--------------------|
+| <img src="https://github.com/devsoumikpal/ExpenseTracker/blob/master/home_screen_ui.png" width="250"/> | <img src="https://github.com/devsoumikpal/ExpenseTracker/blob/master/add_transactions_ui.png" width="250"/> | <img src="https://github.com/devsoumikpal/ExpenseTracker/blob/master/analysis_screen_ui.png" width="250"/> |
+
+| 📉 Analysis (No Data) | 🔔 Notification Example |
+|-----------------------|-------------------------|
+| <img src="https://github.com/devsoumikpal/ExpenseTracker/blob/master/analysis_screen_no_data.png" width="250"/> | <img src="https://github.com/devsoumikpal/ExpenseTracker/blob/master/notification_show.png" width="250"/> |
+
 
 
 ---
